@@ -1,0 +1,9 @@
+<div class="form">
+    <h1>My To-Do List</h1>
+    <input [(ngModel)]="task" placeholder="Enter a task" />
+    <button (click)="addTask()">Add Task</button>
+ 
+    <app-todo-list [tasks]="tasks" ></app-todo-list>
+    
+  </div>
+  
